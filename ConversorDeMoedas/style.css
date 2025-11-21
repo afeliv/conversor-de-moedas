@@ -1,0 +1,185 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;600;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1f381f;
+    font-family: "Josefin Sans", sans-serif;
+    color: #FEFAE0;
+    padding-bottom: 40px;
+}
+
+
+.titulo {
+    color: #97B067;
+    text-align: center;
+    padding: 25px 10px;
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+
+.slogan-um h2 {
+    color: #FEFAE0;
+    text-align: center;
+    margin-top: -8px;
+    font-weight: 300;
+    opacity: 0.85;
+}
+.slogan-dois h2 {
+    color: #FEFAE0;
+    text-align: center;
+    margin-top: -8px;
+    font-weight: 300;
+    opacity: 0.85;
+}
+#dolarResposta, #euroResposta {
+    margin: 5px;
+}
+
+.back-eua {
+    background: linear-gradient(90deg,
+        #B22234 0%,
+        #B22234 33%,
+        #FFFFFF 33%,
+        #FFFFFF 66%,
+        #3C3B6E 66%,
+        #3C3B6E 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.back-euro {
+    background: linear-gradient(90deg,
+        #298acf 0%,     
+        #0f4db8 40%,    
+        #f2ff00 75%,    
+        #ffcc00 100%    
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+
+.back-br {
+    background: linear-gradient(90deg,
+        #009C3B 0%,     
+        #009C3B 33%,
+        #FFDF00 33%,    
+        #FFDF00 66%,
+        #002776 66%,    
+        #002776 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+
+.eua {
+    position: relative;
+    padding-left: 10px;
+    line-height: 50px;
+    font-size: 22px;
+}
+.euro {
+    position: relative;
+    padding-left: 10px;
+    line-height: 50px;
+    font-size: 22px;
+}
+
+
+.container-principal-dolar {
+    max-width: 600px;
+    margin: 60px auto;
+    background-color: #FEFAE0;
+    border-radius: 20px;
+    padding: 24px;
+    color: #1f381f;
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.22);
+    border: 1px solid #97B06744;
+}
+.container-principal-euro {
+    max-width: 600px;
+    margin: 60px auto;
+    background-color: #FEFAE0;
+    border-radius: 20px;
+    padding: 24px;
+    color: #1f381f;
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.22);
+    border: 1px solid #97B06744;
+}
+
+
+input {
+    background-color: #FEFAE0;
+    border: 1px solid #3f573f;
+    border-radius: 6px;
+    padding: 6px 10px;
+    width: 40%;
+    height: 28px;
+    font-size: 14px;
+    color: #1f381f;
+    transition: 0.2s ease;
+}
+
+input:focus {
+    outline: none;
+    border-color: #97B067;
+    box-shadow: 0 0 6px #97B06755;
+}
+
+
+#btn-dolar {
+    background-color: #3f573f;
+    border-radius: 6px;
+    padding: 10px 16px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.25s ease;
+    text-align: center;
+    
+}
+
+#btn-dolar:hover {
+    background-color: #97B067;
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 14px rgba(151, 176, 103, 0.4);
+}
+#btn-euro {
+    background-color: #3f573f;
+    border-radius: 6px;
+    padding: 10px 16px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.25s ease;
+    text-align: center;
+    
+}
+
+#btn-euro:hover {
+    background-color: #97B067;
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 14px rgba(151, 176, 103, 0.4);
+}

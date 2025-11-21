@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <main>
+        <h1 class="titulo">Conversor de Moedas</h1>
+        <div class="slogan-um">
+            <h2 class="eua">
+            DÓLAR <strong class="back-eua">AMERICANO</strong>
+            <h2 class="br">PARA REAL <strong class="back-br">BRASILEIRO</strong></h2>
+        </div>
+        <div class="container-principal-dolar">
+            <p class="dolar">
+                Digite o valor em <strong>dólar:</strong>
+                <input type="text" id="inDolar">
+            </p> 
+            <p> 
+                <button id="btn-dolar" value="Converter">Converter</button>
+            </p>
+            <p id="dolarResposta"></p>
+        </div>
+        <div class="slogan-dois">
+            <h2 class="euro">
+            DE<strong class="back-euro"> EURO</strong>
+            <h2 class="br">PARA REAL <strong class="back-br">BRASILEIRO</strong></h2>
+        </div>
+        <div class="container-principal-euro">
+            <p class="euro-texto">
+                Digite o valor em <strong>euro:</strong>
+                <input type="text" id="inEuro">
+            </p> 
+            <p> 
+                <button id="btn-euro" value="Converter">Converter</button>
+            </p>
+            <p id="euroResposta"></p>
+        </div>
+    </main>
+    <script src="scripts.js"></script>
+    <script src="money.js"></script>
+</body>
+</html>
